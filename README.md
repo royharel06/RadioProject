@@ -59,5 +59,3 @@ Here are sample simulations showing the behavior under different conditions:
   
   - ![Error Frequency](examples/Frequency%20Mode%20Error%20Example.gif)
   - Due to high noise and error accumulation, the drone ends up lost despite frequent updates.
-
-These visualizations help demonstrate the difference between naive frequent updates and confidence-based optimization strategies."# RadioProject" 
