@@ -50,14 +50,14 @@ This project is inspired by:
 Here are sample simulations showing the behavior under different conditions:
 
 ### Smart Mode (confidence-based)
-- **[Smart Example – 4 Ranging Requests](Smart%20Example%204%20Requests.gif)**  
+  ![Smart Example](examples/Smart%20Example%204%20Requests.gif)
   The drone confidently navigates to the target with minimal ranging.
 
 ### Frequent Mode (noisy environment)
-- **[Standard Frequent Mode](drone_simulation-ezgif.com-gif-to-mp4-converter.mp4)**  
+  ![Standard Frequency](examples/Frequency%20Mode.gif)
   The drone uses frequent ranging and successfully reaches home.
-
-- **[Frequent Mode – Drone Lost](drone_simulation-ezgif.com-gif-to-mp4-converter(1).mp4)**  
+  
+  ![Error Frequency](examples/Frequency%20Mode%20Error%20Example.gif)
   Due to high noise and error accumulation, the drone ends up lost despite frequent updates.
 
 These visualizations help demonstrate the difference between naive frequent updates and confidence-based optimization strategies."# RadioProject" 
